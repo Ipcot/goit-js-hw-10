@@ -17,26 +17,50 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  margin-left: 40%;
+  margin-top: 5%;
 }
 
 
+
 .country-list {
-  
+  margin-left: 37%;
 }
 
 .list {
 display: flex;
-margin: 10px;
+align-items: center;
 }
 
-.country-name {
-  margin: 10px;
-  padding: 10px;
+.title {
+  display: flex;
+  align-items: center;
 }
 
-.img-on-list {
-  width: 80px;
-  height: 100%;
+.country-info {
+  margin-left: 40%;
+}
+
+.country {
+  padding-left: 10px;
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 20px;
+
+}
+
+.prop-title {
+  font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.prop-value {
+ 
+font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  
 }
 
 .info-img {
